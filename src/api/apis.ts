@@ -65,7 +65,7 @@ export const useRegister=(): [SubmitHandler<registerformdatatype>, string] =>{
         setNextpage('loading')
         } catch (error: any) {
             setNextpage('error')
-            Alert.alert("Error",error.response.data.message,
+            Alert.alert("Error",error?.response?.data?.message,
                 [
                     {
                       text: "Cancel",

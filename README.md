@@ -8,7 +8,15 @@ Welcome to our React Native app project! This app is designed to provide users w
 
 - **Profile Tab**: Offers a personalized view where users can see their own posts and manage their profile. Implemented in two versions: [`ProfileTab.tsx`] and [`ProfileTab.tsx`], with the latter including additional features like error handling for profile pictures.
 
-- **Splash Screen**: A visually appealing splash screen that displays while the app is loading. Implemented in `Splash.tsx`.
+## Login/Sign Up Page
+
+- **Functionality**:
+  - Simple front end for login and sign up.
+  - No verification or JWT/cache functionality.
+  - Allow login by entering a username and clicking the login button.
+  - For demonstration purposes, you can use the following default credentials:
+    - **Email**: user@example.com
+    - **Password**: password123
 
 ## Screenshots
 

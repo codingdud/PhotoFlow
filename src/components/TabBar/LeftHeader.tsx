@@ -6,7 +6,7 @@ const LeftHeader = () => {
   const {colors}=useTheme()
   return (
     <View style={[styles.container]}>
-      <Text style={[styles.headerText,{color:colors.text}]}>Instagram</Text>
+      <Text style={[styles.headerText,{color:colors.text}]}>PhotoFlow</Text>
     </View>
   )
 }
